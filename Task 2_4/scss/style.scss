@@ -1,0 +1,192 @@
+/*@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap');*/
+$colorTitleText:#17C09A;
+$colorText:#454646;
+$colorPlace:#dadbdead;
+$bgcolor:#FAFAFA;
+$borderColor:#CCCCCC;
+.flex{
+	display: flex;
+	flex-direction: column;	
+}
+	.row{		
+		margin-top: 15px;
+		width: 100%;	
+		display: flex;	
+		justify-content: space-between;	
+}
+.form {	
+	margin: 15px auto;
+	width: 600px;
+	border-radius: 10px;	
+		&__body {	
+			background-color: $bgcolor;
+			font-family: Lato;					
+		}
+		&__container {		
+			
+			padding: 0 35px;
+			border-radius: 10px;			
+			background-color: $bgcolor;
+
+			& label{
+				color: $colorTitleText;
+				font-weight: 700;
+			}	
+			& input	{	
+				padding:5px 92px 8px 8px;
+				border: solid 0.5px $borderColor;
+				color: $colorText;	
+				border-radius: 5px;
+
+					&[type="range"]{
+					margin-top: 7px ;
+					padding: 0px;
+					width: 80%;							
+				}							
+			}
+			& placeholder { 
+				padding-left: 20px ;
+			}
+		}	
+		&__firstName{
+			position: relative;
+			&>.error{
+				left: 35%;
+				
+			}
+		}
+		&__pass{
+			position: relative;
+			&>.error{
+				left: 30%;
+				
+			}
+		}
+		&__passConf{
+			position: relative;
+			&>.error{
+				left: 50%;
+				
+			}
+
+		}
+		&__header {				
+			border-radius: 10px 10px 0 0;
+			background-color: #EFF0F1;	
+			color:$colorText;
+			border-bottom: 1px solid $borderColor ;
+		}
+		&__title {
+			text-align: center;
+			padding: 15px 0;	
+		}
+		&__email {
+			position: relative;
+			margin-top: 15px;
+			&>.error{
+				left: 10%;
+				
+			}
+			& input	{	
+				width: 81%;									
+			}
+		}
+		&__gender {			
+				& input:last-of-type{
+					margin-left: 6px;											
+				}				
+		}
+		&__hobbi {	
+			padding-left: 5px;			
+			& input{
+				margin-right: 4px;											
+			}		 
+		}
+		&__source {
+			& select {
+				padding:5px 175px 6px 0px;
+				border: solid 1px $borderColor;					
+				border-radius: 5px;	
+				text-align: left;
+			}
+		}
+		&__income {	
+			margin-left: 34px;
+			flex: 1 1 auto;
+			& span{
+				border-radius: 5px 0px 0px 5px;
+				padding: 4px 2px;
+				font-family: Lato;
+				color: white;
+				font-size: 10 px;
+				background-color: $colorTitleText;
+				&.word {
+					border-radius: 0px 5px 5px 0px ;
+				}
+			}				
+		}
+		&__upload {
+			& input	{	
+				padding: 9px 4px;				
+				color: $colorPlace;	
+				border-radius: 0px;	
+				border: none;							
+			}			
+		}
+		&__age {
+			& input [type="number"]{
+				color: #000000;
+				padding:5px 170px 6px 0px;
+				}
+		}		
+		&__bottom {
+		
+			border-radius: 0 0 10px 10px;
+			background-color: #EFF0F1;
+			border-top: 1px solid $borderColor ;
+			padding: 10px;
+			text-align: right;
+			width: 100%;
+			
+			& > input {		
+				border: none;
+				border-radius: 10px;
+				background: #17C09A;
+				padding: 10px 20px;
+				color: #EFF0F1;
+				font-size: 20px;
+				margin-right: 15px;	
+				&:hover{
+					cursor: pointer;
+				}	
+				&:active{
+					box-shadow: inset 4px -4px 21px 4px rgba(18,115,92,1);
+				}				
+			}		
+		}
+}
+.error{
+	position: absolute;
+	top: -4%;
+	font-size: 90%;		
+}
+ 
+label[for="bio"] {
+	margin-top: 5px;	
+}
+label.insideLable {	
+	color: #454646;
+	margin-left: 3px;
+	font-size: 14px;
+} 
+textarea {
+	border: solid 1px $borderColor;
+	color: $colorText;	
+	margin: 2px 0 25px 0;
+	height: 93px; 
+	width: 530px;
+}
+
+
+
+

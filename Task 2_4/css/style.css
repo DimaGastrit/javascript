@@ -1,0 +1,213 @@
+/*@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap');*/
+.flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.row {
+  margin-top: 15px;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.form {
+  margin: 15px auto;
+  width: 600px;
+  border-radius: 10px;
+}
+
+.form__body {
+  background-color: #FAFAFA;
+  font-family: Lato;
+}
+
+.form__container {
+  padding: 0 35px;
+  border-radius: 10px;
+  background-color: #FAFAFA;
+}
+
+.form__container label {
+  color: #17C09A;
+  font-weight: 700;
+}
+
+.form__container input {
+  padding: 5px 92px 8px 8px;
+  border: solid 0.5px #CCCCCC;
+  color: #454646;
+  border-radius: 5px;
+}
+
+.form__container input[type="range"] {
+  margin-top: 7px;
+  padding: 0px;
+  width: 80%;
+}
+
+.form__container placeholder {
+  padding-left: 20px;
+}
+
+.form__firstName {
+  position: relative;
+}
+
+.form__firstName > .error {
+  left: 35%;
+}
+
+.form__pass {
+  position: relative;
+}
+
+.form__pass > .error {
+  left: 30%;
+}
+
+.form__passConf {
+  position: relative;
+}
+
+.form__passConf > .error {
+  left: 50%;
+}
+
+.form__header {
+  border-radius: 10px 10px 0 0;
+  background-color: #EFF0F1;
+  color: #454646;
+  border-bottom: 1px solid #CCCCCC;
+}
+
+.form__title {
+  text-align: center;
+  padding: 15px 0;
+}
+
+.form__email {
+  position: relative;
+  margin-top: 15px;
+}
+
+.form__email > .error {
+  left: 10%;
+}
+
+.form__email input {
+  width: 81%;
+}
+
+.form__gender input:last-of-type {
+  margin-left: 6px;
+}
+
+.form__hobbi {
+  padding-left: 5px;
+}
+
+.form__hobbi input {
+  margin-right: 4px;
+}
+
+.form__source select {
+  padding: 5px 175px 6px 0px;
+  border: solid 1px #CCCCCC;
+  border-radius: 5px;
+  text-align: left;
+}
+
+.form__income {
+  margin-left: 34px;
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 auto;
+          flex: 1 1 auto;
+}
+
+.form__income span {
+  border-radius: 5px 0px 0px 5px;
+  padding: 4px 2px;
+  font-family: Lato;
+  color: white;
+  font-size: 10 px;
+  background-color: #17C09A;
+}
+
+.form__income span.word {
+  border-radius: 0px 5px 5px 0px;
+}
+
+.form__upload input {
+  padding: 9px 4px;
+  color: #dadbdead;
+  border-radius: 0px;
+  border: none;
+}
+
+.form__age input [type="number"] {
+  color: #000000;
+  padding: 5px 170px 6px 0px;
+}
+
+.form__bottom {
+  border-radius: 0 0 10px 10px;
+  background-color: #EFF0F1;
+  border-top: 1px solid #CCCCCC;
+  padding: 10px;
+  text-align: right;
+  width: 100%;
+}
+
+.form__bottom > input {
+  border: none;
+  border-radius: 10px;
+  background: #17C09A;
+  padding: 10px 20px;
+  color: #EFF0F1;
+  font-size: 20px;
+  margin-right: 15px;
+}
+
+.form__bottom > input:hover {
+  cursor: pointer;
+}
+
+.form__bottom > input:active {
+  -webkit-box-shadow: inset 4px -4px 21px 4px #12735c;
+          box-shadow: inset 4px -4px 21px 4px #12735c;
+}
+
+.error {
+  position: absolute;
+  top: -4%;
+  font-size: 90%;
+}
+
+label[for="bio"] {
+  margin-top: 5px;
+}
+
+label.insideLable {
+  color: #454646;
+  margin-left: 3px;
+  font-size: 14px;
+}
+
+textarea {
+  border: solid 1px #CCCCCC;
+  color: #454646;
+  margin: 2px 0 25px 0;
+  height: 93px;
+  width: 530px;
+}
+/*# sourceMappingURL=style.css.map */

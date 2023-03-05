@@ -1,0 +1,515 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="css/style.css">
+	<title>Task 2_2</title>
+</head>
+
+<body>
+	<div class="wrapper">
+		<main class="page">
+			<div class="page__title">Tavernetta</div>
+			<div class="page__tabs tabs">
+				<div class="tabs__nav">
+					<button class="tabs__btn tabs__btn_active " data-tab="#breakfasts">Breakfasts</button>
+					<button class="tabs__btn " data-tab="#salads">Salads & Appetizers</button>
+					<button class="tabs__btn " data-tab="#pasta">Pasta</button>
+					<button class="tabs__btn " data-tab="#main">Main Course</button>
+					<button class="tabs__btn " data-tab="#piadina">Piadina</button>
+					<button class="tabs__btn " data-tab="#desserts">Desserts</button>
+				</div>
+				<div class="page__contents">
+					<div class="page__items page__items_active" id="breakfasts">
+						<div class="page__cart cart">
+							<div class="cart__items">
+								<div class="cart__item">
+									<div class="cart__item-title">Eggs Benedict with prosciutto cotto and hollandaise sauce</div>
+									<div class="cart__item-weight">200 g</div>
+								</div>
+								<div class="cart__items-price">197 ₴</div>
+							</div>
+							<div class="cart__img-wrapper">
+								<img src="img/breakfasts/BenEggs.jpg" alt="eggsBenedict" class="cart__img">
+							</div>
+						</div>
+						<div class="page__cart cart">
+							<div class="cart__items">
+								<div class="cart__item">
+									<div class="cart__item-title">Eggs Hemingway with salted salmon</div>
+									<div class="cart__item-weight">200 g</div>
+								</div>
+								<div class="cart__items-price">243 ₴</div>
+							</div>
+							<div class="cart__img-wrapper">
+								<img src="img/breakfasts/EggsSalmon.jpg" alt="eggsHemingway" class="cart__img">
+							</div>
+						</div>
+						<div class="page__cart cart">
+							<div class="cart__items">
+								<div class="cart__item">
+									<div class="cart__item-title">Sweetened cottage cheese fritters sprinkled with raspberry jam
+									</div>
+									<div class="cart__item-weight">200 g</div>
+								</div>
+								<div class="cart__items-price">186 ₴</div>
+							</div>
+							<div class="cart__img-wrapper">
+								<img src="img/breakfasts/SweetendCottage.jpg" alt="cottageCheese" class="cart__img">
+							</div>
+						</div>
+						<div class="page__cart cart">
+							<div class="cart__items">
+								<div class="cart__item">
+									<div class="cart__item-title">Toast with avocado, salted salmon and a poached egg</div>
+									<div class="cart__item-weight">180 g</div>
+								</div>
+								<div class="cart__items-price">259 ₴</div>
+							</div>
+							<div class="cart__img-wrapper">
+								<img src="img/breakfasts/ToastWithAvocado.jpg" alt="toastWithAvocado" class="cart__img">
+							</div>
+						</div>
+						<div class="page__cart cart">
+							<div class="cart__items">
+								<div class="cart__item">
+									<div class="cart__item-title">Fried eggs & pancetta</div>
+									<div class="cart__item-weight">180 g</div>
+								</div>
+								<div class="cart__items-price">148 ₴</div>
+							</div>
+							<div class="cart__img-wrapper">
+								<img src="img/breakfasts/friedEggs.jpg" alt="friedEggs" class="cart__img">
+							</div>
+						</div>
+					</div>
+					<div class="page__items  page__items_hidden" id="salads">
+						<div class="page__cart cart">
+							<div class="cart__items">
+								<div class="cart__item">
+									<div class="cart__item-title">Juicy roasted beef and blanched vegetables</div>
+									<div class="cart__item-weight">250 g</div>
+								</div>
+								<div class="cart__items-price">324 ₴</div>
+							</div>
+							<div class="cart__img-wrapper">
+								<img src="img/saladsAppetizers/juicyRoastedbeef.jpg" alt="juicyRoastedBeef" class="cart__img">
+							</div>
+						</div>
+						<div class="page__cart cart">
+							<div class="cart__items">
+								<div class="cart__item">
+									<div class="cart__item-title">Delicate rabbit paté with organic butter and pepper confiture
+									</div>
+									<div class="cart__item-weight">140 g</div>
+								</div>
+								<div class="cart__items-price">183 ₴</div>
+							</div>
+							<div class="cart__img-wrapper">
+								<img src="img/saladsAppetizers/rabbitpaté.jpg" alt="DelicateRabbitPaté" class="cart__img">
+							</div>
+						</div>
+						<div class="page__cart cart">
+							<div class="cart__items">
+								<div class="cart__item">
+									<div class="cart__item-title">Veal tartare dressed in Sicilian anchovy sauce
+									</div>
+									<div class="cart__item-weight">140 g</div>
+								</div>
+								<div class="cart__items-price">269 ₴</div>
+							</div>
+							<div class="cart__img-wrapper">
+								<img src="img/saladsAppetizers/tattare.jpg" alt="vealTartareDressed" class="cart__img">
+							</div>
+						</div>
+						<div class="page__cart cart">
+							<div class="cart__items">
+								<div class="cart__item">
+									<div class="cart__item-title">Salad of tiger prawns and scallops</div>
+									<div class="cart__item-weight">250 g</div>
+								</div>
+								<div class="cart__items-price">382 ₴</div>
+							</div>
+							<div class="cart__img-wrapper">
+								<img src="img/saladsAppetizers/tigerPrawns.jpg" alt="saladJfTigerPrawns" class="cart__img">
+							</div>
+						</div>
+						<div class="page__cart cart">
+							<div class="cart__items">
+								<div class="cart__item">
+									<div class="cart__item-title">Pink tomato salad</div>
+									<div class="cart__item-weight">140 g</div>
+								</div>
+								<div class="cart__items-price">198 ₴</div>
+							</div>
+							<div class="cart__img-wrapper">
+								<img src="img/saladsAppetizers/tomatoSalad.jpg" alt="" class="cart__img">
+							</div>
+						</div>
+						<div class="page__cart cart">
+							<div class="cart__items">
+								<div class="cart__item">
+									<div class="cart__item-title">Traditional Tuscanian salad with grilled vegetables, anchovies
+										and bread</div>
+									<div class="cart__item-weight">300 g</div>
+								</div>
+								<div class="cart__items-price">238 ₴</div>
+							</div>
+							<div class="cart__img-wrapper">
+								<img src="img/saladsAppetizers/tuscanianSalad.jpg" alt="tuscanianSalad" class="cart__img">
+							</div>
+						</div>
+					</div>
+					<div class="page__items page__items_hidden" id="pasta">
+						<div class="page__cart cart">
+							<div class="cart__items">
+								<div class="cart__item">
+									<div class="cart__item-title">Spaghetti carbonara with farmer's egg yolks</div>
+									<div class="cart__item-weight">260 g</div>
+								</div>
+								<div class="cart__items-price">321 ₴</div>
+							</div>
+							<div class="cart__img-wrapper">
+								<img src="img/pasta/carbonare.jpg" alt="carbonara" class="cart__img">
+							</div>
+						</div>
+						<div class="page__cart cart">
+							<div class="cart__items">
+								<div class="cart__item">
+									<div class="cart__item-title">Duck ravioli soaked in truffle sauce
+									</div>
+									<div class="cart__item-weight">240 g</div>
+								</div>
+								<div class="cart__items-price">321 ₴</div>
+							</div>
+							<div class="cart__img-wrapper">
+								<img src="img/pasta/duckRavioli.jpg" alt="Duck ravioli" class="cart__img">
+							</div>
+						</div>
+						<div class="page__cart cart">
+							<div class="cart__items">
+								<div class="cart__item">
+									<div class="cart__item-title">Girasole with chicken and baked sweet pepper, sprinkled with
+										sage sauce
+									</div>
+									<div class="cart__item-weight">220 g</div>
+								</div>
+								<div class="cart__items-price">228 ₴</div>
+							</div>
+							<div class="cart__img-wrapper">
+								<img src="img/pasta/girasoleWithChicken.jpg" alt="Girasole with chicken" class="cart__img">
+							</div>
+						</div>
+						<div class="page__cart cart">
+							<div class="cart__items">
+								<div class="cart__item">
+									<div class="cart__item-title">Lasagna with classical ragout Bolognese-style and bechamel
+										sauce</div>
+									<div class="cart__item-weight">250 g</div>
+								</div>
+								<div class="cart__items-price">302 ₴</div>
+							</div>
+							<div class="cart__img-wrapper">
+								<img src="img/pasta/lasagna.jpg" alt="Lasagna" class="cart__img">
+							</div>
+						</div>
+						<div class="page__cart cart">
+							<div class="cart__items">
+								<div class="cart__item">
+									<div class="cart__item-title">Linguini with pink taleggio cheese and wild mushrooms al forno
+									</div>
+									<div class="cart__item-weight">260 g</div>
+								</div>
+								<div class="cart__items-price">328 ₴</div>
+							</div>
+							<div class="cart__img-wrapper">
+								<img src="img/pasta/linguinTaleggio.jpg" alt="Linguini with pink taleggio" class="cart__img">
+							</div>
+						</div>
+						<div class="page__cart cart">
+							<div class="cart__items">
+								<div class="cart__item">
+									<div class="cart__item-title">Agnolotti with farmer's rabbit Ligurian-style</div>
+									<div class="cart__item-weight">250 g</div>
+								</div>
+								<div class="cart__items-price">259 ₴</div>
+							</div>
+							<div class="cart__img-wrapper">
+								<img src="img/pasta/rabitAngoloti.jpg" alt="AgnolottiRabbit " class="cart__img">
+							</div>
+						</div>
+						<div class="page__cart cart">
+							<div class="cart__items">
+								<div class="cart__item">
+									<div class="cart__item-title">Ravioli with farmer's spinach and Sicilian ricotta</div>
+									<div class="cart__item-weight">200 g</div>
+								</div>
+								<div class="cart__items-price">229 ₴</div>
+							</div>
+							<div class="cart__img-wrapper">
+								<img src="img/pasta/ravioliWithRicotta.jpg" alt="Ravioli with farmer's spinach"
+									class="cart__img">
+							</div>
+						</div>
+					</div>
+					<div class="page__items page__items_hidden" id="main">
+						<div class="page__cart cart">
+
+							<div class="cart__items">
+								<div class="cart__item">
+									<div class="cart__item-title">Grilled chicken picanté with roasted potatoes al forno and
+										rosemary</div>
+									<div class="cart__item-weight">180/100g</div>
+								</div>
+								<div class="cart__items-price">273 ₴</div>
+							</div>
+							<div class="cart__img-wrapper">
+								<img src="img/mainCourse/Chicken.jpg" alt="Grilled chicken picanté" class="cart__img">
+							</div>
+						</div>
+						<div class="page__cart cart">
+							<div class="cart__items">
+								<div class="cart__item">
+									<div class="cart__item-title">Black Sea goby
+									</div>
+									<div class="cart__item-weight">100 g</div>
+								</div>
+								<div class="cart__items-price">116 ₴</div>
+							</div>
+							<div class="cart__img-wrapper">
+								<img src="img/mainCourse/fish.jpg" alt="Black Sea goby" class="cart__img">
+							</div>
+						</div>
+						<div class="page__cart cart">
+							<div class="cart__items">
+								<div class="cart__item">
+									<div class="cart__item-title">Grilled tentacles of Moroccan octopus with green zucchini and
+										red cherry tomatoes
+									</div>
+									<div class="cart__item-weight">120 g</div>
+								</div>
+								<div class="cart__items-price">730 ₴</div>
+							</div>
+							<div class="cart__img-wrapper">
+								<img src="img/mainCourse/octopus.jpg" alt="Grilled tentacles" class="cart__img">
+							</div>
+						</div>
+						<div class="page__cart cart">
+							<div class="cart__items">
+								<div class="cart__item">
+									<div class="cart__item-title">Grilled pork loin</div>
+									<div class="cart__item-weight">220 g</div>
+								</div>
+								<div class="cart__items-price">328 ₴</div>
+							</div>
+							<div class="cart__img-wrapper">
+								<img src="img/mainCourse/pork.jpg" alt="Grilled pork" class="cart__img">
+							</div>
+						</div>
+						<div class="page__cart cart">
+							<div class="cart__items">
+								<div class="cart__item">
+									<div class="cart__item-title">American ribeye steak with roasted potatoes
+									</div>
+									<div class="cart__item-weight">100 g</div>
+								</div>
+								<div class="cart__items-price">545 ₴</div>
+							</div>
+							<div class="cart__img-wrapper">
+								<img src="img/mainCourse/ribeye.jpg" alt="American ribeye steak" class="cart__img">
+							</div>
+						</div>
+						<div class="page__cart cart">
+							<div class="cart__items">
+								<div class="cart__item">
+									<div class="cart__item-title">Seabass or dorado baked with potatoes</div>
+									<div class="cart__item-weight">100 g</div>
+								</div>
+								<div class="cart__items-price">215 ₴</div>
+							</div>
+							<div class="cart__img-wrapper">
+								<img src="img/mainCourse/Sebas.jpg" alt="Seabass or dorado baked" class="cart__img">
+							</div>
+						</div>
+						<div class="page__cart cart">
+							<div class="cart__items">
+								<div class="cart__item">
+									<div class="cart__item-title">Veal paillard with vegetables</div>
+									<div class="cart__item-weight">220 g</div>
+								</div>
+								<div class="cart__items-price">420 ₴</div>
+							</div>
+							<div class="cart__img-wrapper">
+								<img src="img/mainCourse/vil.jpg" alt="Veal paillard" class="cart__img">
+							</div>
+						</div>
+					</div>
+					<div class="page__items page__items_hidden" id="piadina">
+						<div class="page__cart cart">
+							<div class="cart__items">
+								<div class="cart__item">
+									<div class="cart__item-title">Piadina with local farmer’s goat cheese and crunchy spinach
+									</div>
+									<div class="cart__item-weight">180</div>
+								</div>
+								<div class="cart__items-price">197 ₴</div>
+							</div>
+							<div class="cart__img-wrapper">
+								<img src="img/piadina/goatCheese.jpg" alt="Piadina with local farmer’s" class="cart__img">
+							</div>
+						</div>
+						<div class="page__cart cart">
+							<div class="cart__items">
+								<div class="cart__item">
+									<div class="cart__item-title">Piadina with mozzarella, parmesan and rocket leaves
+									</div>
+									<div class="cart__item-weight">180 g</div>
+								</div>
+								<div class="cart__items-price">197 ₴</div>
+							</div>
+							<div class="cart__img-wrapper">
+								<img src="img/piadina/mozzarela.jpg" alt="Piadina with mozzarella" class="cart__img">
+							</div>
+						</div>
+						<div class="page__cart cart">
+							<div class="cart__items">
+								<div class="cart__item">
+									<div class="cart__item-title">Piadina with prosciutto crudo and mozzarella
+									</div>
+									<div class="cart__item-weight">180 g</div>
+								</div>
+								<div class="cart__items-price">210 ₴</div>
+							</div>
+							<div class="cart__img-wrapper">
+								<img src="img/piadina/proscitoCrudo.jpg" alt="Piadina with prosciutto" class="cart__img">
+							</div>
+						</div>
+						<div class="page__cart cart">
+							<div class="cart__items">
+								<div class="cart__item">
+									<div class="cart__item-title">Piadina with Apulean stracciatella and salted salmon</div>
+									<div class="cart__item-weight">180 g</div>
+								</div>
+								<div class="cart__items-price">228 ₴</div>
+							</div>
+							<div class="cart__img-wrapper">
+								<img src="img/piadina/Salmon.jpg" alt="Piadina with Apulean " class="cart__img">
+							</div>
+						</div>
+					</div>
+					<div class="page__items page__items_hidden" id="desserts">
+						<div class="page__cart cart">
+							<div class="cart__items">
+								<div class="cart__item">
+									<div class="cart__item-title">Canolli filled with hazelnut and caramel / ricotta and orange
+										zest
+									</div>
+									<div class="cart__item-weight">60 g</div>
+								</div>
+								<div class="cart__items-price">97 ₴</div>
+							</div>
+							<div class="cart__img-wrapper">
+								<img src="img/desserts/canolli.jpg" alt="Canolli filled with hazelnut" class="cart__img">
+							</div>
+						</div>
+						<div class="page__cart cart">
+							<div class="cart__items">
+								<div class="cart__item">
+									<div class="cart__item-title">Creme brulee
+									</div>
+									<div class="cart__item-weight">150 g</div>
+								</div>
+								<div class="cart__items-price">168 ₴</div>
+							</div>
+							<div class="cart__img-wrapper">
+								<img src="img/desserts/CremBrule.jpg" alt="Creme brulee" class="cart__img">
+							</div>
+						</div>
+						<div class="page__cart cart">
+							<div class="cart__items">
+								<div class="cart__item">
+									<div class="cart__item-title">Lemon tart
+									</div>
+									<div class="cart__item-weight">125 g</div>
+								</div>
+								<div class="cart__items-price">144 ₴</div>
+							</div>
+							<div class="cart__img-wrapper">
+								<img src="img/desserts/Lemon.jpg" alt="Lemon tart" class="cart__img">
+							</div>
+						</div>
+						<div class="page__cart cart">
+							<div class="cart__items">
+								<div class="cart__item">
+									<div class="cart__item-title">Berry-flavored panna cotta</div>
+									<div class="cart__item-weight">200 g</div>
+								</div>
+								<div class="cart__items-price">166 ₴</div>
+							</div>
+							<div class="cart__img-wrapper">
+								<img src="img/desserts/panacota.jpg" alt="Berry-flavored panna cotta" class="cart__img">
+							</div>
+						</div>
+						<div class="page__cart cart">
+							<div class="cart__items">
+								<div class="cart__item">
+									<div class="cart__item-title">Mango/Lemon sorbet</div>
+									<div class="cart__item-weight">50 g</div>
+								</div>
+								<div class="cart__items-price">75 ₴</div>
+							</div>
+							<div class="cart__img-wrapper">
+								<img src="img/desserts/sorbet.jpg" alt="Mango/Lemon sorbet" class="cart__img">
+							</div>
+						</div>
+						<div class="page__cart cart">
+							<div class="cart__items">
+								<div class="cart__item">
+									<div class="cart__item-title">Tiramisu</div>
+									<div class="cart__item-weight">150 g</div>
+								</div>
+								<div class="cart__items-price">198 ₴</div>
+							</div>
+							<div class="cart__img-wrapper">
+								<img src="img/desserts/Tiramisu.jpg" alt="Tiramisu" class="cart__img">
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</main>
+	</div>
+	<script>
+
+		const tabsBtn = document.querySelectorAll(".tabs__btn");
+		const pageItems = document.querySelectorAll(".page__items")
+
+		tabsBtn.forEach(function (item) {
+			item.addEventListener("click", function () {
+				const currentBtn = item;
+				const tabId = currentBtn.getAttribute("data-tab");
+				const currentTab = document.querySelector(tabId);
+
+				tabsBtn.forEach(function (tabsBtn) {
+					tabsBtn.classList.remove('tabs__btn_active');
+				})
+
+				pageItems.forEach(function (pageItems) {
+					pageItems.classList.add('page__items_hidden');
+					pageItems.classList.remove('page__items_active')
+				})
+
+				currentBtn.classList.add('tabs__btn_active');
+				currentTab.classList.remove('page__items_hidden');
+				currentTab.classList.add('page__items_active');
+			})
+
+		});
+
+	</script>
+</body>
+
+</html

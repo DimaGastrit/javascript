@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap');
+
+
+$bgColor:#348fa5;
+$mainColor:#133740;
+$secondColor:#6ec2d7;
+body{
+	background-color:$bgColor ;
+	width: 100%;
+	height: 100%;
+	color: white;
+	font-size: 15px;
+}
+
+.wrapper {
+	width: 100%;	
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.weather {	
+	display: flex;
+	flex-direction: column;	
+	justify-content: center;
+	align-items: center;
+
+	
+
+	&__loading{
+		margin-top: 20%;
+	}
+	
+		&__choice {
+			flex: 1 1 auto ;
+		
+		}
+
+		&__input {
+			width: 250px;
+			
+		}
+
+		&__description {
+			margin-top: 5px;
+		}
+
+		&__main {
+			height: 100%;			
+			flex: 1 1 auto;
+			background-color: $mainColor;
+			margin-top: 25px;
+			border-radius: 5px;
+			position: relative;
+						
+		}
+
+		&__header {
+			padding:  10px;
+			border-radius: 5px 5px 0 0 ;
+		}
+
+		&__column {
+			width: 280px;
+			&:first-child{
+				margin: auto;
+			}
+		}		
+
+		&__row {
+			margin: 15px;
+			display: flex;
+			justify-content: space-between;
+			align-items: center;
+		}
+
+		&__day {
+		}
+
+		&__pic {
+		}
+
+		&__condition {
+		}
+
+		&__temp {
+		}
+}
+.header {
+			display: flex;
+			background-color: $secondColor;
+			align-items: center;
+			justify-content: space-around;
+		&__colum {
+		}
+
+		&__temp {
+			font-size: 45px;
+		}
+
+		&__feelsLake {
+		}
+
+		&__condition {
+		}
+
+		&__lokation {
+		}
+
+		&__pic {
+		}
+}

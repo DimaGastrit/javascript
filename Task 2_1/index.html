@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="css/style.css">
+	<title>Task 1_7</title>
+</head>
+
+<body>
+	<section class="main">
+		<div class="title__contaner">
+			<div id="title" class="title__bg"> Background Color : </div>
+			<div id="color" class="title__color"> rgb(87, 40, 40) </div>
+		</div>
+		<div id="button" class="main__button">CLICK ME</div>
+	</section>
+	<script>
+		function get_random_color() {
+			function r() {
+				return Math.floor(Math.random() * 256)
+			}
+			return "rgb(" + r() + "," + r() + "," + r() + ")"
+		}
+		const button = document.getElementById("button");
+		const colorText = document.body.querySelector(".title__color");
+		function changeBackground() {
+			document.body.style.background = get_random_color();
+			colorText.innerHTML = get_random_color();
+		}
+		button.addEventListener('click', changeBackground,);
+	</script>
+</body>
+
+</html>

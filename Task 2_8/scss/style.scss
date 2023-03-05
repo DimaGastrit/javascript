@@ -1,0 +1,19 @@
+$mainColor :#21603F;
+$secondColor:#84c551;
+$braun:#8d3200;
+$orange:#E84e0f;
+                           
+*{
+	margin: 0;
+	padding: 0;
+
+} 
+.youtube-icon {
+	width: 64px;
+	height: 64px;
+	fill: black;
+}
+
+.youtube-icon:hover {
+	fill: red;
+}

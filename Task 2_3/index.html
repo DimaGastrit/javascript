@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="css/style.css">
+	<title>Task 2_3</title>
+</head>
+
+<body>
+	<div class="wrapper">
+		<main class="page">
+			<div class="page__title">Tavernetta</div>
+			<div class="page__tabs tabs">
+				<div class="tabs__nav">
+					<button class="tabs__btn" data-tab="length">Sort by length</button>
+					<button class="tabs__btn" data-tab="price">Sort by price</button>
+					<button class="tabs__btn" data-tab="review">Sort by review</button>
+					<button class="tabs__btn" data-tab="weight">Sort by weight</button>
+				</div>
+				<div class="page__items">
+					<div class="page__cart cart" data-price="197" data-rew="3.2">
+						<div class="cart__items">
+							<div class="cart__img-wrapper">
+								<img src="img/breakfasts/BenEggs.jpg" alt="eggsBenedict" class="cart__img">
+							</div>
+							<div class="cart__items_sab">
+								<div class="cart__item_title">Eggs Benedict with prosciutto cotto and hollandaise sauce
+								</div>
+								<div class="cart__item_weight"><span>221</span>g</div>
+							</div>
+							<div class="cart__items_prices">
+								<div class="cart__item_price">197 ₴</div>
+								<div class="cart__item_rew">3.2</div>
+							</div>
+						</div>
+					</div>
+					<div class="page__cart cart" data-price="243" data-rew="1">
+						<div class="cart__items">
+							<div class="cart__img-wrapper">
+								<img src="img/breakfasts/EggsSalmon.jpg" alt="eggsHemingway" class="cart__img">
+							</div>
+							<div class="cart__items_sab">
+								<div class="cart__item_title">Eggs Hemingway with salted salmon</div>
+								<div class="cart__item_weight"><span>200</span> g</div>
+							</div>
+							<div class="cart__items_prices">
+								<div class="cart__item_price">243 ₴</div>
+								<div class="cart__item_rew">1</div>
+							</div>
+						</div>
+					</div>
+					<div class="page__cart cart" data-price="186" data-rew="2.6">
+						<div class="cart__items">
+							<div class="cart__img-wrapper">
+								<img src="img/breakfasts/SweetendCottage.jpg" alt="cottageCheese" class="cart__img">
+							</div>
+							<div class="cart__items_sab">
+								<div class="cart__item_title">Sweetened cottage cheese fritters sprinkled with raspberry
+									jam
+								</div>
+								<div class="cart__item_weight"><span>210</span> g</div>
+							</div>
+							<div class="cart__items_prices">
+								<div class="cart__item_price">186 ₴</div>
+								<div class="cart__item_rew">2.6</div>
+							</div>
+						</div>
+					</div>
+					<div class="page__cart cart" data-price="259" data-rew="1.9">
+						<div class="cart__items">
+							<div class="cart__img-wrapper">
+								<img src="img/breakfasts/ToastWithAvocado.jpg" alt="toastWithAvocado" class="cart__img">
+							</div>
+							<div class="cart__items_sab">
+								<div class="cart__item_title">Toast with avocado, salted salmon and a poached egg</div>
+								<div class="cart__item_weight"><span>180</span> g</div>
+							</div>
+							<div class="cart__items_prices">
+								<div class="cart__item_price">259 ₴</div>
+								<div class="cart__item_rew">1.9</div>
+							</div>
+						</div>
+					</div>
+					<div class="page__cart cart" data-price="148" data-rew="3.8">
+						<div class="cart__items">
+							<div class="cart__img-wrapper">
+								<img src="img/breakfasts/friedEggs.jpg" alt="friedEggs" class="cart__img">
+							</div>
+							<div class="cart__items_sab">
+								<div class="cart__item_title">Fried eggs & pancetta</div>
+								<div class="cart__item_weight"><span>180</span> g</div>
+							</div>
+							<div class="cart__items_prices">
+								<div class="cart__item_price">148 ₴</div>
+								<div class="cart__item_rew">3.8</div>
+							</div>
+						</div>
+					</div>
+					<div class="page__cart cart" data-price="324" data-rew="3.2">
+						<div class="cart__items">
+							<div class="cart__img-wrapper">
+								<img src="img/saladsAppetizers/juicyRoastedbeef.jpg" alt="friedEggs" class="cart__img">
+							</div>
+							<div class="cart__items_sab">
+								<div class="cart__item_title">Juicy roasted beef and blanched vegetables</div>
+								<div class="cart__item_weight"><span>250</span> g</div>
+							</div>
+							<div class="cart__items_prices">
+								<div class="cart__item_price">324 ₴</div>
+								<div class="cart__item_rew">3.2</div>
+							</div>
+						</div>
+					</div>
+					<div class="page__cart cart" data-price="183" data-rew="3.6">
+						<div class="cart__items">
+							<div class="cart__img-wrapper">
+								<img src="img/saladsAppetizers/rabbitpaté.jpg" alt="friedEggs" class="cart__img">
+							</div>
+							<div class="cart__items_sab">
+								<div class="cart__item_title">Delicate rabbit paté with organic butter and pepper
+									confiture</div>
+								<div class="cart__item_weight"><span>140</span> g</div>
+							</div>
+							<div class="cart__items_prices">
+								<div class="cart__item_price">183 ₴</div>
+								<div class="cart__item_rew">3.6</div>
+							</div>
+						</div>
+					</div>
+					<div class="page__cart cart" data-price="263" data-rew="5">
+						<div class="cart__items">
+							<div class="cart__img-wrapper">
+								<img src="img/saladsAppetizers/tattare.jpg" alt="friedEggs" class="cart__img">
+							</div>
+							<div class="cart__items_sab">
+								<div class="cart__item_title">Veal tartare dressed in Sicilian anchovy sauce
+									confiture</div>
+								<div class="cart__item_weight"><span>140</span> g</div>
+							</div>
+							<div class="cart__items_prices">
+								<div class="cart__item_price">263 ₴</div>
+								<div class="cart__item_rew">5</div>
+							</div>
+						</div>
+					</div>
+					<div class="page__cart cart" data-price="382" data-rew="1.7">
+						<div class="cart__items">
+							<div class="cart__img-wrapper">
+								<img src="img/saladsAppetizers/tigerPrawns.jpg" alt="friedEggs" class="cart__img">
+							</div>
+							<div class="cart__items_sab">
+								<div class="cart__item_title">Salad of tiger prawns and scallops</div>
+								<div class="cart__item_weight"><span>250</span> g</div>
+							</div>
+							<div class="cart__items_prices">
+								<div class="cart__item_price">382 ₴</div>
+								<div class="cart__item_rew">1.7</div>
+							</div>
+						</div>
+					</div>
+					<div class="page__cart cart" data-price="198" data-rew="2.7">
+						<div class="cart__items">
+							<div class="cart__img-wrapper">
+								<img src="img/saladsAppetizers/tomatoSalad.jpg" alt="friedEggs" class="cart__img">
+							</div>
+							<div class="cart__items_sab">
+								<div class="cart__item_title">Pink tomato salad</div>
+								<div class="cart__item_weight"><span>140</span> g</div>
+							</div>
+							<div class="cart__items_prices">
+								<div class="cart__item_price">198 ₴</div>
+								<div class="cart__item_rew">2.7</div>
+							</div>
+						</div>
+					</div>
+					<div class="page__cart cart" data-price="234" data-rew="3">
+						<div class="cart__items">
+							<div class="cart__img-wrapper">
+								<img src="img/saladsAppetizers/tuscanianSalad.jpg" alt="friedEggs" class="cart__img">
+							</div>
+							<div class="cart__items_sab">
+								<div class="cart__item_title">Traditional Tuscanian salad with grilled
+									vegetables,anchovies</div>
+								<div class="cart__item_weight"><span>300</span> g</div>
+							</div>
+							<div class="cart__items_prices">
+								<div class="cart__item_price">234 ₴</div>
+								<div class="cart__item_rew">3</div>
+							</div>
+						</div>
+					</div>
+					<div class="page__cart cart" data-price="321" data-rew="3.6">
+						<div class="cart__items">
+							<div class="cart__img-wrapper">
+								<img src="img/pasta/carbonare.jpg" alt="friedEggs" class="cart__img">
+							</div>
+							<div class="cart__items_sab">
+								<div class="cart__item_title">Spaghetti carbonara with farmer's egg yolks</div>
+								<div class="cart__item_weight"><span>260 </span>g</div>
+							</div>
+							<div class="cart__items_prices">
+								<div class="cart__item_price">321 ₴</div>
+								<div class="cart__item_rew">3.6</div>
+							</div>
+						</div>
+					</div>
+					<div class="page__cart cart" data-price="321" data-rew="4">
+						<div class="cart__items">
+							<div class="cart__img-wrapper">
+								<img src="img/pasta/duckRavioli.jpg" alt="friedEggs" class="cart__img">
+							</div>
+							<div class="cart__items_sab">
+								<div class="cart__item_title">Duck ravioli soaked in truffle sauce</div>
+								<div class="cart__item_weight"><span>240</span> g</div>
+							</div>
+							<div class="cart__items_prices">
+								<div class="cart__item_price">321 ₴</div>
+								<div class="cart__item_rew">4</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</main>
+	</div>
+	<script src="js/js.js"></script>
+</body>
+
+</html

@@ -1,0 +1,15 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.youtube-icon {
+  width: 64px;
+  height: 64px;
+  fill: black;
+}
+
+.youtube-icon:hover {
+  fill: red;
+}
+/*# sourceMappingURL=style.css.map */

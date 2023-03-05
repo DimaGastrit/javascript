@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="css/style.css">
+	<title>Task 2_4</title>
+</head>
+
+<body>
+	<form method="post" name="createAccount" class="form form__body" novalidate>
+		<div class="form__header">
+			<h1 class="form__title">Create Account </h1>
+		</div>
+		<div class="form__container flex">
+			<div class="row">
+				<div class="form__firstName">
+					<label for="Name"> First name*</label><br>
+					<input id="name" name="userFirstName" type="text" placeholder="enter your first name" class="imField">
+				</div>
+				<div class="form__LastName">
+					<label for="userLastName">Last name</label><br>
+					<input id="lastName" name="userLastName" type="text" placeholder="enter your last name">
+				</div>
+			</div>
+			<div class="form__email "><label for="Email">Email*</label><br>
+				<input name="userEmail" type="email" id="mail" placeholder="enter your email" class="imField">
+			</div>
+			<div class="row">
+				<div class="form__pass"><label for="Pas">Password*</label><br>
+					<input id="pas" name="userPassword" type="password" placeholder="enter your password" class="imField">
+				</div>
+				<div class="form__passConf"><label for="passwordСonfir"> Confirm Password*</label><br>
+					<input id="passwordСonfir" name="passwordСonfir" type="password" required
+						placeholder="enter your password again" class="imField">
+				</div>
+			</div>
+			<div class="row">
+				<div class="form__gender">
+					<label> Gender <br>
+						<input name="userGenders" type="radio"><label class="insideLable">Male</label>
+						<input name="userGenders" type="radio"><label class="insideLable">Female</label>
+					</label>
+				</div>
+				<div class="form__hobbi">
+					<label>Hobbies </label><br>
+					<label class="insideLable"><input name="userHobbi" type="checkbox">Music</label>
+					<label class="insideLable"><input name="userHobbi" type="checkbox">Sports</label>
+					<label class="insideLable"><input name="userHobbi" type="checkbox">Travel</label>
+					<label class="insideLable"><input name="userHobbi" type="checkbox">Movies</label>
+				</div>
+			</div>
+			<div class="row">
+				<div class="form__source">
+					<label for="source">Source of Income</label><br>
+					<select id="source" name="student_courses">
+						<option value="Lorem">Emploid</option>
+						<option value="Lorem">Lorem</option>
+						<option value="Lorem">Lorem</option>
+					</select>
+				</div>
+				<div class="form__income">
+					<label for="Income">Income</label> <br>
+					<input id="Income" name="Income" type="range" min="20" max="90" step="10"
+						onchange="document.getElementById('rangeValue').innerHTML = this.value;">
+					<span id="rangeValue">90</span><span class="word">K</span></p>
+					<datalist id="rangeList">
+						<option value="20K" label="20K">
+						<option value="30K" label="30K">
+						<option value="40K" label="40K">
+						<option value="50K" label="50K">
+						<option value="80K" label="80K">
+						<option value="90K" label="90K">
+					</datalist>
+				</div>
+			</div>
+			<div class="row">
+				<div class="form__upload">
+					<label for="file">Upload Profile Picture</label>
+					<input id="file" name="file" type="file">
+				</div>
+				<div class="form__age">
+					<label for="use_age">Age</label>
+					<input id="age" name="use_age" type="text" placeholder="your age">
+				</div>
+			</div>
+			<div class="bio">
+				<label for="bio">Bio</label>
+				<textarea class="texteria" id="bio" name="user_bio"></textarea>
+			</div>
+		</div>
+		<div class="form__bottom">
+			<input name="bottom" type="submit" value="Create" class="sab">
+		</div>
+
+	</form>
+	<script src="js/js.js"></script>
+</body>
+
+</html>
